@@ -48,19 +48,20 @@ End::header::section one = top-head
 /* Start::main:: Section Two =  blog-container */
 .blog-container{
     display: flex;
-    background-color: #E6E6E6;
-    padding-bottom: 50px ;
 }
 .side-navbar{
     width: 25%;
     margin-right: 1%;
 }
+.blog-article-container{
+    background-color: #E6E6E6;
+}
 .important-nav{
-    width:90%;
+    width:80%;
     height: 200px;
     background-color: #161616;
     margin: 30px auto;
-    border-radius: 2px;
+    border-radius: 10px;
     padding: 20px;
 }
 .upcoming-match ,.all-group{
@@ -105,6 +106,7 @@ End::header::section one = top-head
     grid-template-columns: repeat(3,1fr);
     column-gap: 2%;
     row-gap: 30px;
+    padding-bottom: 50px ;
 }
 .thumbnail img{
     width: 100%;
@@ -122,9 +124,37 @@ End::header::section one = top-head
     margin: 7px;
     text-align: center;
 } 
+/* Start:: match.html file all css  */
+.matches{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 2%;
+    row-gap: 30px;
+    padding-bottom: 50px ;
+
+}
+.match{
+    border: 1px solid gray;
+    text-align: center;
+}
+.match .thumbnail-flag span {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    
+}
+
+/* End:: match.html file all css */
 /*---------------------------------
  End::main:: Section Two =  blog-container
  ----------------------------------- */
+
 .footer{
     min-height: 200px;
     width: 100%;
