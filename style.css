@@ -1,7 +1,10 @@
-/* section one =  head */
-body{
-    margin: 30px 60px;
+/* Start::header::section one = top-head  */
+body {   
     font-family: 'Poppins', sans-serif;
+}
+header ,main {
+    margin: 40px;
+    margin-top: 40px;
 }
 .top-head{
     text-align: center;
@@ -11,17 +14,16 @@ body{
     display: flex;
     border-radius: 15px;
     margin-bottom: 50px;
-    
+    bottom: 130px;    
 }
 .head-article{
-    width: 50%;
+   width: 50%;
    text-align: justify;
    margin-left: 80px;
    margin-top: 50px;
 }
 .head-article-h1{
-   font-size: 50px;
-   word-spacing: 1px;
+   font-size: 30px;
 }
 p{
     font-size: 15px;
@@ -40,3 +42,130 @@ p{
 .fa-tv{
     margin-left: 10px;
 }
+/* -----------------------------
+End::header::section one = top-head  
+-----------------------------------*/
+/* Start::main:: Section Two =  blog-container */
+.blog-container{
+    display: flex;
+    background-color: #E6E6E6;
+    padding-bottom: 50px ;
+}
+.side-navbar{
+    width: 25%;
+    margin-right: 1%;
+}
+.important-nav{
+    width:90%;
+    height: 200px;
+    background-color: #161616;
+    margin: 30px auto;
+    border-radius: 2px;
+    padding: 20px;
+}
+.upcoming-match ,.all-group{
+  margin: 15px auto;
+  color: black;
+  width: 200px;
+  height: 10px;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+   font-size: 18px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+.players-blog{
+    margin: 15px auto;
+    width: 200px;
+    height: 10px;
+    padding: 20px;
+    background-color:red;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.players-blog a{
+    text-decoration: none;
+    color: wheat;
+}
+.all-group a{
+    text-decoration: none;
+    color: black;
+}
+.upcoming-match a{
+    text-decoration: none;
+    color: black;
+}
+
+.blog-article-container{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 2%;
+    row-gap: 30px;
+}
+.thumbnail img{
+    width: 100%;
+    object-fit: fill;
+}
+.blog-btn button{
+    margin: 10px;
+    padding: 4px 10px;
+    border-radius: 5px;
+    cursor: not-allowed;
+}
+.fa-clock, .fa-message{
+   font-size: 15px;
+   color: gray;
+    margin: 7px;
+    text-align: center;
+} 
+/*---------------------------------
+ End::main:: Section Two =  blog-container
+ ----------------------------------- */
+.footer{
+    min-height: 200px;
+    width: 100%;
+    text-align: center;
+    background-color:#161616 ;
+}
+.footer-heading{
+    padding-top: 50px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+hr{
+    width: 80%;
+    border:1px solid #2C2C2C;
+    margin-bottom: 30px;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+.footer-navbar li{
+   display: inline-block;
+}
+.footer-navbar li a{   
+    display: block;
+    color: #B9B9B9;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-weight: 700;
+}
+.footer-navbar li a:hover{
+    background-color: orange;
+    color: #161616;
+    border-radius: 10px;
+}
+.fa-facebook,.fa-twitter-square,.fa-instagram{
+    margin: 20px;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+
