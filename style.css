@@ -40,6 +40,19 @@ p{
     justify-content: center;
     align-items: center;
 }
+  /* animation CSS*/
+  .btn-live {
+    background-color: red;
+    animation-name: example;
+    animation-duration: 10s;
+  }
+  
+  @keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
 .image{
     min-width: 50%;
 }
@@ -266,6 +279,19 @@ ul{
         object-fit: fill;
         margin: 1rem;
 }
+  /* animation CSS*/
+  .btn-live {
+    background-color: red;
+    animation-name: example;
+    animation-duration: 10s;
+  }
+  
+  @keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
 }
 
  /*---- Tab Devices------ */
@@ -317,9 +343,9 @@ ul{
             font-size: 30px;
 
      }
-      /*----Mobile: match.html file----*/
+      /*----Tablet: match.html file----*/
     .matches{
-    display: grid;
+     display: grid;
      grid-template-columns: repeat(2,1fr);
      justify-content: center;
      align-items: center;
@@ -327,6 +353,19 @@ ul{
      object-fit: fill;
      margin: 1rem;
 }
+  /* animation CSS*/
+  .btn-live {
+    background-color: red;
+    animation-name: example;
+    animation-duration: 10s;
+  }
+  
+  @keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
         
     }
     /* This section use for hide view element for large device  */
@@ -336,4 +375,3 @@ ul{
             display: none;
         }
   }
-  
